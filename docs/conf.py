@@ -64,27 +64,7 @@ html_logo = '_static/logo.png'
 html_favicon = '_static/favicon.ico'
 
 html_theme_options = {
-    "icon_links": [
-        {
-            "name": "AppStore",
-            "url": "https://apps.apple.com/ru/app/стройконтроль/id867522092",
-            "icon": "fab fa-app-store"
-        },
-         
-        {
-            "name": "PlayMarket",
-            "url": "https://play.google.com/store/apps/details?id=com.planstery.review&hl=ru",
-            "icon": "fab fa-google-play"
-        },
-        
-        {
-            "name": "VK",
-            "url": "https://vk.com/m_r_s",
-            "icon": "fab fa-vk",
-        },
-    ],
-
-     "search_bar_text": "Поиск по документации...",
+    "search_bar_text": "Поиск по документации...",
 
 }
 
@@ -104,5 +84,5 @@ latex_documents = [
 ]
 
 comments_config = {
-   "hypothesis": True
+   "hypothesis": False
 }

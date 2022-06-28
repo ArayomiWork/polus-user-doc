@@ -1,11 +1,13 @@
 Для администратора
 ==================
 
-..  toctree:: 
-    :maxdepth: 2
-    :titlesonly:
+**Раздел в процессе создания**
 
-    admin/installing-and-login
-    admin/organization-setup
-    admin/work-with-project
-    admin/settings
+..  ..  toctree:: 
+        :maxdepth: 2
+        :titlesonly:
+
+        admin/installing-and-login
+        admin/organization-setup
+        admin/work-with-project
+        admin/settings
