@@ -13,7 +13,6 @@
      user/incoming-quality-control
      user/tests
      user/work-acceptance
-     user/analytics
      user/document-flow
      user/settings
      user/help
