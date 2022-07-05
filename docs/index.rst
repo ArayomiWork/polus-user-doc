@@ -30,7 +30,6 @@
 *   :doc:`user/incoming-quality-control`
 *   :doc:`user/tests`
 *   :doc:`user/work-acceptance`
-*   :doc:`user/analytics`
 
 ..  *   :doc:`user/reports`
 
