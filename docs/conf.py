@@ -84,5 +84,5 @@ latex_documents = [
 ]
 
 comments_config = {
-   "hypothesis": False
+   "hypothesis": True
 }
