@@ -1,224 +1,117 @@
-Инструменты для работы на плане
-===============================
+Работа с чертежами
+==================
 
-Откройте необходимый вам чертеж.
-В правом верхнем углу доступны две панели с инструменты для работы с чертежом (Рис. 1).
+Во время работы с формой замечания у вас есть возможность отметить местонахождение нарушений прямо на чертеже.
 
-..  thumbnail:: images/plans-instruments/plans-instrument-1-plan-with-panels.png
-    :alt: Чертёж
-    :align: center
-    :title: Рис. 1. Чертеж с панелями инструментов
+Для этого найдите в форме пункт "Отметка на РД" и нажмите кнопку "Отметить на чертеже" (Рис. 1).
+
+..  thumbnail:: images/plans-instruments/plans-instruments-1-plan-button-in-task.png
+    :alt: Пункт «Отметка на РД»
+    :width: 80%
+    :title: Рис. 1. Пункт «Отметка на РД»
     :show_caption: True
 
-На верхней панели расположены управляющие элементы, а на правой --- выделяющие.
+После этого во всплывшем окне выберите необходимый план (Рис. 2).
 
-Панель с управляющими элементами
---------------------------------
+..  thumbnail:: images/plans-instruments/plans-instruments-2-plan-choosing.png
+    :alt: Выбор плана
+    :width: 80%
+    :title: Рис. 2. Выбор плана
+    :show_caption: True
 
-..  thumbnail:: images/plans-instruments/plans-instrument-2-manage-panel.png
-    :alt: Панель с управляющими элементами
-    :align: center
-    :width: 50%
+..  note:: Если каких-то чертежей не хватает, то сообщите об этом администратору системы.
+    Он ответственен за загрузку всех планов в приложение.
 
-----
-
-Рассмотрим каждый инструмент на панели:
-
-#.  |Genplan-Button| --- работа с Генпланом. Позволяет преобразовать чертеж в Генплан. Описание работы функционала в следующем разделе.
-#.  |Favorite-Button| --- добавление в избранное. После нажатия на эту кнопку чертеж будет добавлен в раздел «Избранное». 
-#.  |Task-Registry-Button| --- реестр замечаний. Нажатие кнопки переместит вас в реестр замечаний, относящихся к данному чертежу.
-    Нажав на любое замечание, вы можете перейти к его редактированию.
-#.  |Layers-Button| --- слои. При нажатии кнопки «Слои» открывается меню выбора слоев для последующего отключения/включения.
- 
-    У всех планов можно отключить **слой аннотаций** --- это слой нарисованных фигур на плане: линий, кругов, стрелок и тому подобное, ---
-    и слой замечаний (Рис. 2). Для DWF-чертежей, в которых сохранились слои плана, есть доступ к включению и выключению некоторых из них.
-
-    ..  thumbnail:: images/plans-instruments/plans-instrument-6-manage-panel-layers.png
-        :alt: Работа со слоями
-        :width: 50%
-        :title: Рис. 2. Работа со слоями
-        :show_caption: True
-
-#.  |Settings-Button| --- настройки плана. Позволяет перейти в настройки чертежа (Рис. 3).
-
-    ..  thumbnail:: images/plans-instruments/plans-instrument-7-manage-panel-settings.png
-        :alt: Настройки чертежа
-        :align: center
-        :title: Рис. 3. Окно настроек чертежа
-        :show_caption: True
-
-#.  |Exit-Button| --- закрыть чертеж.
-
-Панель с выделяющими элементами
+Инструменты для работы с планом
 -------------------------------
 
-Панель справа состоит из 6 кнопок (Рис. 4):
+..  Если вы используете такой же линтер для rst, что и я, то возможно ссылки на иконки у вас отображаются, как комментарии, но это баг, не верьте ему.
+    Картинки отображаются, всё ок!
 
-..  thumbnail:: images/plans-instruments/plans-instrument-9-selection-panel.png
-    :alt: Работа со слоями
-    :width: 40%
-    :title: Рис. 4. Инструменты для работы с чертежом
+Для удобной работы с планом у вас есть следующие инструменты обозначения (Рис. 3):
+
+..  thumbnail:: images/plans-instruments/plans-instruments-3-overview.png
+    :alt: Инструменты для работы с планом
+    :width: 80%
+    :title: Рис. 3. Инструменты для работы с планом
     :show_caption: True
 
-#.  |Selection-Button| --- режим выделения. Позволяет выделить несколько замечаний и аннотаций на чертеже.
-    Необходим для совершения действия сразу с несколькими элементами на чертеже (Рис. 5).
+#.  |Move| --- этот инструмент позволяет перемещаться по чертежу.
 
-    ..  only:: html
+    ..  |Move| image:: images/plans-instruments/plans-instruments-4-move.png
+                    :alt: Перемещение
+                    :scale: 60%
 
-        ..  thumbnail:: images/plans-instruments/plans-instrument-10-selection-panel-selection.gif
-            :alt: Работа со слоями
-            :align: center
-            :title: Рис. 5. Панель выделения
-            :show_caption: True
+#.  |Select| --- с помощью этого инструмента можно выбрать один (нажатие) или несколько (удержание и выделение) элементов обозначения.
 
-    ..  only:: latex
+    ..  |Select| image:: images/plans-instruments/plans-instruments-5-select.png
+                    :alt: Перемещение
+                    :scale: 60%
 
-        ..  figure:: images/plans-instruments/plans-instrument-10-selection-panel-selection.png
-            :alt: Работа со слоями
-            :align: center
+#.  |Trash| --- выделенные элементы можно удалить, нажав на эту кнопку.
 
-            Рис. 5. Панель выделения.
+    ..  |Trash| image:: images/plans-instruments/plans-instruments-6-trash.png
+                    :alt: Перемещение
+                    :scale: 60%
 
-#.  |Choose-Button| --- режим выбора. Позволяет перемещать чертеж на экране, выбирать и открывать контекстное меню замечания.
-#.  |Scale-Button| --- масштабирование. Позволяет изменить масштаб чертежа.
-    Вам доступно несколько заданных коэффициентов увеличения и приближения:
-    50%, 100%, 150%, 200% и **Fit** (Рис. 6).
+#.  |Mark| --- этот инструмент ставит на план значок, схожий с иконкой. Помогает более точно подсвечивать какие-то места на плане.
 
-    ..  thumbnail:: images/plans-instruments/plans-instrument-12-selection-panel-scale.png
-        :alt: Масштабирование
-        :width: 50%
-        :title: Рис. 6. Заданные коэффициенты масштабирование.
-        :show_caption: True
+    ..  |Mark| image:: images/plans-instruments/plans-instruments-7-mark.png
+                    :alt: Перемещение
+                    :scale: 60%
 
-    ..  note:: **Fit** --- масштабирование размера чертежа в соответствие с размером экрана устройства.
+#.  |Arrow| --- рисование стрелки на плане.
 
-#.  |Drawing-Button| --- рисование фигур, иконка может отличаться в зависимости от того, какую фигуру вы используете чаще всего.
-    
-    При нажатии на данную кнопку программа предложит пользователю набор инструментов для создания меток (Рис. 7):
-    
-    *   стрелка,
-    *   линия,
-    *   прямоугольник,
-    *   круг,
-    *   крест,
-    *   ручка (свободное рисовании),
-    *   облако,
-    *   текст на чертеже.
+    ..  |Arrow| image:: images/plans-instruments/plans-instruments-8-arrow.png
+                    :alt: Перемещение
+                    :scale: 60%
 
-    ..  thumbnail:: images/plans-instruments/plans-instrument-13-selection-panel-drawing.png
-        :alt: Метки
-        :width: 70%
-        :title: Рис. 7. Набор инструментов для создания меток
-        :show_caption: True
+#.  |Line| --- рисование линии.
 
-    После выбора любого инструмента, внизу всей панели появляются две дополнительные кнопки:
-    
-    *   |Width-Button| --- настройка толщины линии,
+    ..  |Line| image:: images/plans-instruments/plans-instruments-9-line.png
+                    :alt: Перемещение
+                    :scale: 60%                    
 
-        ..  thumbnail:: images/plans-instruments/plans-instrument-10-selection-panel-width.png
-            :alt: Толщина линии
-            :width: 50%
-            :title: Рис. 8. Настройка толщины линии
-            :show_caption: True
+#.  |Square| --- рисование прямоугольника.
 
-    *   |Color-Button| --- настройка цвета.
+    ..  |Square| image:: images/plans-instruments/plans-instruments-10-square.png
+                    :alt: Перемещение
+                    :scale: 60%                    
 
-        ..  thumbnail:: images/plans-instruments/plans-instrument-10-selection-panel-color.png
-            :alt: Цвет линии
-            :width: 40%
-            :title: Рис. 9. Настройка цвета
-            :show_caption: True
+#.  |Circle| --- рисование круга.
 
-#.  |Measurements-Button| --- измерения. Позволяет измерить, отметить, задать расстояния между объектами.
-    Символ на кнопке меняется в зависимости от последнего используемого инструмента (Рис. 10).
+    ..  |Circle| image:: images/plans-instruments/plans-instruments-11-circle.png
+                    :alt: Перемещение
+                    :scale: 60%                
 
-    ..  thumbnail:: images/plans-instruments/plans-instrument-14-selection-panel-measurements.png
-        :alt: Работа со слоями
-        :width: 40%
-        :title: Рис. 10. Набор инструментов для измерения
-        :show_caption: True
+#.  |Cross| --- рисование креста.
 
-#.  |Tasks-Creating-Button| --- работа с замечаниями. При двойном нажатии появляется следующая панель работы с замечанием: 
+    ..  |Cross| image:: images/plans-instruments/plans-instruments-12-cross.png
+                    :alt: Перемещение
+                    :scale: 60%      
 
-    ..  thumbnail:: images/plans-instruments/plans-instrument-15-selection-panel-tasks.png
-        :alt: Работа со слоями
-        :width: 40%
-        :title: Рис. 11. Панель замечаний
-        :show_caption: True
+#.  |Pen| --- свободное рисование.
 
-    *   |Tasks-Creating-Button| --- создает замечание. 
-    *   |Tasks-Bim-Button| --- доступна только при работе с BIM моделями. Позволяет создать замечание в BIM-модели.
-    *   |Tasks-Button| --- кнопка клонирования замечаний. Позволяет копировать однотипные замечания.
-        
-        Подробнее в разделе :doc:`./cloning-typical-tasks-on-plan`.
+    ..  |Pen| image:: images/plans-instruments/plans-instruments-13-pen.png
+                    :alt: Перемещение
+                    :scale: 60%
 
-..  note:: Все созданные замечания можно удалить прямо на чертеже, предварительно выделив их |Selection-Button| и нажав на кнопку
-    «Удалить», если у вас есть на это права.
+#.  |Pencil| --- свободное рисование/выделение прямыми линиями.
 
-..  |Genplan-Button| image:: images/plans-instruments/plans-instrument-3-manage-panel-genplan.png
-            :alt: Генплан
-            :scale: 70%
+    ..  |Pencil| image:: images/plans-instruments/plans-instruments-14-pencil.png
+                    :alt: Перемещение
+                    :scale: 60%                    
 
-..  |Favorite-Button| image:: images/plans-instruments/plans-instrument-4-manage-panel-favorite.png
-            :alt: Избранное
-            :scale: 70%
+#.  |Text| --- с помощью этого элемента на план можно добавить текст.
 
-..  |Task-Registry-Button| image:: images/plans-instruments/plans-instrument-5-manage-panel-tasks-registry.png
-            :alt: Реестр замечаний
-            :scale: 70%
+    ..  |Text| image:: images/plans-instruments/plans-instruments-15-text.png
+                    :alt: Перемещение
+                    :scale: 60%                    
+                    
+После всех манипуляций с чертежом не забудьте нажать кнопку "Готово" (Рис. 4), чтобы сохранить результат.
 
-..  |Layers-Button| image:: images/plans-instruments/plans-instrument-6-manage-panel-layers-button.png
-            :alt: Реестр замечаний
-            :scale: 70%
-
-..  |Settings-Button| image:: images/plans-instruments/plans-instrument-7-manage-panel-settings-button.png
-            :alt: Настройки
-            :scale: 70%
-
-..  |Exit-Button| image:: images/plans-instruments/plans-instrument-8-manage-panel-exit.png
-            :alt: Выход из чертежа
-            :scale: 70%
-
-..  |Selection-Button| image:: images/plans-instruments/plans-instrument-10-selection-panel-selection-button.png
-            :alt: Выход из чертежа
-            :scale: 70%
-
-..  |Choose-Button| image:: images/plans-instruments/plans-instrument-11-selection-panel-choose-button.png
-            :alt: Выход из чертежа
-            :scale: 70%
-
-..  |Scale-Button| image:: images/plans-instruments/plans-instrument-12-selection-panel-scale-button.png
-            :alt: Выход из чертежа
-            :scale: 70%
-            
-..  |Drawing-Button| image:: images/plans-instruments/plans-instrument-13-selection-panel-drawing-button.png
-            :alt: Выход из чертежа
-            :scale: 70%
-
-..  |Width-Button| image:: images/plans-instruments/plans-instrument-10-selection-panel-width-button.png
-            :alt: Выход из чертежа
-            :scale: 70%
-
-..  |Color-Button| image:: images/plans-instruments/plans-instrument-10-selection-panel-color-button.png
-            :alt: Выбор цвета
-            :scale: 70%
-
-..  |Measurements-Button| image:: images/plans-instruments/plans-instrument-14-selection-panel-measurements-button.png
-            :alt: Измерения
-            :scale: 70%
-
-..  |Tasks-Button| image:: images/plans-instruments/plans-instrument-15-selection-panel-tasks-button.png
-            :alt: Работа с чертежами
-            :scale: 70%
-
-..  |Tasks-Creating-Button| image:: images/plans-instruments/plans-instrument-15-selection-panel-tasks-creating.png
-            :alt: Создание замечаний
-            :scale: 70%
-
-..  |Tasks-Bim-Button| image:: images/plans-instruments/plans-instrument-15-selection-panel-tasks-bim.png
-            :alt: BIM
-            :scale: 70%
-
-..  |Tasks-Clone-Button| image:: images/plans-instruments/plans-instrument-15-selection-panel-tasks-clone.png
-            :alt: Клонирование
-            :scale: 70%
+..  thumbnail:: images/plans-instruments/plans-instruments-16-save.png
+    :alt: Кнопка «Готово»
+    :width: 35%
+    :title: Рис. 4. Кнопка «Готово»
+    :show_caption: True
