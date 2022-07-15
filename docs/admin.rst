@@ -6,4 +6,5 @@
     :titlesonly:
 
     admin/content-management-directus
-    admin/templates-visibility-strapi
+
+..  admin/templates-visibility-strapi
