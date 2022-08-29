@@ -93,6 +93,7 @@
 
     content-management-directus/area
     content-management-directus/checklist
+    content-management-directus/disturbed-point
     content-management-directus/durations
     content-management-directus/incontrol-status
     content-management-directus/iss-status
