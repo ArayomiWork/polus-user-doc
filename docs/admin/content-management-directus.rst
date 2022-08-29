@@ -2,10 +2,10 @@
 ===================================
 
 Для работы со справочниками мы используем отдельную систему управления содержимым.
-Чтобы туда попасть перейдите по `ссылке <https://dev-ok.mp.mrsdev.ru/api/references/admin>`_
+Чтобы туда попасть перейдите по `ссылке <http://stk.polyus.com/api/references/admin/>`_
 или скопируйте и вставьте её в строку браузера::
 
-    https://dev-ok.mp.mrsdev.ru/api/references/admin
+    http://stk.polyus.com/api/references/admin/
 
 После этого вам надо будет ввести логин и пароль и войти.
 Если вы являетесь администратором системы, то данные для доступа к системе вам должны были уже передать.
@@ -17,8 +17,8 @@
     :title: Рис. 1. Вход в систему управления содержимым
     :show_caption: True
 
-Виды справочников
------------------
+Работа со справочниками
+-----------------------
 
 Справочник --- это сведения, имеющие одинаковую структуру и моделирующие одну и ту же сущность из предметной области.
 Пример: виды работ, участки, пункты НТД и прочее.
@@ -76,3 +76,39 @@
 Таким образом у нас простая запись **АЗ-00003.1 - ТС. Устройство межъярусных дренажей (2 слой)** находится в родительской записи
 **ПА_П-АЗ-15-01-С-00003.У-Строительство ОК "Надежный" по переработке золотосодержащих руд месторождений и отвалов кучным выщелачиванием произв.**.
 
+Виды справочников
+-----------------
+
+В системе управления содержимым на данный момент присутствуют следующие справочники:
+
+..  thumbnail:: images/content-management-directus-5-ref-toctree.png
+    :alt: Справочники в системе
+    :width: 30%
+    :title: Рис. 5. Справочники в системе
+    :show_caption: True
+
+..  toctree::
+    :maxdepth: 1
+    :caption: Описание каждого справочника:
+
+    content-management-directus/area
+    content-management-directus/checklist
+    content-management-directus/durations
+    content-management-directus/incontrol-status
+    content-management-directus/iss-status
+    content-management-directus/laboratory
+    content-management-directus/mtp
+    content-management-directus/rd
+    content-management-directus/rd-code
+    content-management-directus/reasons-for-rejection
+    content-management-directus/req-status
+    content-management-directus/suppliers
+    content-management-directus/trial-status
+    content-management-directus/type-of-laboratory
+    content-management-directus/type-of-work
+    content-management-directus/units
+
+..  content-management-directus/act
+
+..  note:: Заголовки в справочнике двойные для удобного использования. Первая часть заголовка --- это название элемента в пользовательской части,
+    а вторая --- название в системе управления содержимым.
