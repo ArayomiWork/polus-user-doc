@@ -7,6 +7,7 @@
     :maxdepth: 2
     :titlesonly:
 
+    admin/xen-mobile-setup
     admin/content-management-directus
 
 ..  admin/templates-visibility-strapi
