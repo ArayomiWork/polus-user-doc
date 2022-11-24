@@ -10,11 +10,12 @@
 
      user/installing-and-login
      user/work-with-tasks
-     user/incoming-quality-control
-     user/tests
      user/work-acceptance
+     user/tests
+     user/incoming-quality-control
+     user/outlook
+     user/plans-instruments
+     user/creating-documents
      user/document-flow
      user/settings
      user/help
-
-..   user/reports

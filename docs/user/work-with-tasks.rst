@@ -15,5 +15,3 @@
 
     work-with-tasks/tasks-creating
     work-with-tasks/tasks-status
-    work-with-tasks/plans-instruments
-..  work-with-tasks/document-creation
