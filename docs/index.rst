@@ -32,6 +32,9 @@
 *   :doc:`user/incoming-quality-control`
 *   :doc:`user/tests`
 *   :doc:`user/work-acceptance`
+*   :doc:`user/outlook`
+*   :doc:`user/plans-instruments`
+*   :doc:`user/creating-documents`
 
 Описание дополнительных разделов главного меню:
 ```````````````````````````````````````````````
