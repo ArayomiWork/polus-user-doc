@@ -17,5 +17,6 @@
      user/plans-instruments
      user/creating-documents
      user/document-flow
+     user/change-shift
      user/settings
      user/help

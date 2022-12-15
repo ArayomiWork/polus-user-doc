@@ -35,6 +35,7 @@
 *   :doc:`user/outlook`
 *   :doc:`user/plans-instruments`
 *   :doc:`user/creating-documents`
+*   :doc:`user/change-shift/`
 
 Описание дополнительных разделов главного меню:
 ```````````````````````````````````````````````
